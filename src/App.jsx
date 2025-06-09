@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react'
 import { Routes, Route } from 'react-router-dom'
-import Navbar from './components/Layout/Navbar'
-import Home from './components/Pages/Home'
-import About from './components/Pages/About'
-import Projects from './components/Pages/Projects'
-import Contact from './Components/Pages/Contact'
+import Navbar from './components/layout/Navbar'
+import Home from './components/pages/Home'
+import About from './components/pages/About'
+import Projects from './components/pages/Projects'
+// import Contact from './components/pages/Contact'
 import './App.css' // Import your CSS file for styles
 
 function App() {
