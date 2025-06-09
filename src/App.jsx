@@ -4,7 +4,8 @@ import Navbar from './components/layout/Navbar'
 import Home from './components/pages/Home'
 import About from './components/pages/About'
 import Projects from './components/pages/Projects'
-import Contact from './Components/Pages/Contact'
+// import Contact from './Components/Pages/Contact'
+import Contact from './components/pages/Contact'  // Make sure this matches your actual folder structure
 import './App.css'
 
 function App() {
