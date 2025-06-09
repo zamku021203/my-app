@@ -1,5 +1,6 @@
 import React from 'react'
 import PageContainer from '../common/PageContainer'
+// import PageContainer from '../PageContainer'
 
 const Contact = () => {
   return (
@@ -24,7 +25,7 @@ const Contact = () => {
               <div className="w-24 h-1 bg-gradient-to-r from-cyan-400 to-teal-500 rounded-full mx-auto animate-glow"></div>
               
               {/* Decorative elements */}
-              
+
               <div className="mt-8 flex justify-center space-x-5">
                 <div className="w-16 h-12 glass-effect rounded-xl flex items-center justify-center transform hover:rotate-12 transition-transform duration-300">
                   <div className="w-6 h-6 bg-gradient-to-r from-cyan-400 to-teal-500 rounded-full animate-pulse"></div>

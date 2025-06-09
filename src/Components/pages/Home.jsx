@@ -1,5 +1,17 @@
 import React from 'react'
 import PageContainer from '../common/PageContainer'
+// If PageContainer is in the same directory
+// import PageContainer from './PageContainer'
+
+// If PageContainer is in a parent directory's common folder
+// import PageContainer from '../common/PageContainer'
+
+// If PageContainer is in src/components/common from src/pages
+// import PageContainer from '../components/common/PageContainer'
+
+// If using absolute imports from src
+// import PageContainer from '../../common/PageContainer'
+
 
 const Home = () => {
   return (

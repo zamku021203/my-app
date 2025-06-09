@@ -4,8 +4,8 @@ import Navbar from './components/layout/Navbar'
 import Home from './components/pages/Home'
 import About from './components/pages/About'
 import Projects from './components/pages/Projects'
-// import Contact from './components/pages/Contact'
-import './App.css' // Import your CSS file for styles
+import Contact from './Components/Pages/Contact'
+import './App.css'
 
 function App() {
   const [darkMode, setDarkMode] = useState(false)
@@ -32,12 +32,12 @@ function App() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-50 via-blue-50 to-indigo-50 dark:from-dark-900 dark:via-dark-800 dark:to-purple-900 transition-all duration-300">
+    <div className="min-h-screen bg-gradient-to-br from-gray-50 via-blue-50 to-indigo-50 dark:from-gray-900 dark:via-gray-800 dark:to-purple-900 transition-all duration-300">
       {/* Animated background elements */}
       <div className="fixed inset-0 overflow-hidden pointer-events-none">
-        <div className="absolute -top-40 -right-40 w-80 h-80 bg-primary-400/20 rounded-full blur-3xl animate-float"></div>
-        <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-purple-400/20 rounded-full blur-3xl animate-float" style={{animationDelay: '2s'}}></div>
-        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-pink-400/10 rounded-full blur-3xl animate-bounce-slow"></div>
+        <div className="absolute -top-40 -right-40 w-80 h-80 bg-blue-400/20 rounded-full blur-3xl animate-pulse"></div>
+        <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-purple-400/20 rounded-full blur-3xl animate-pulse" style={{animationDelay: '2s'}}></div>
+        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-pink-400/10 rounded-full blur-3xl animate-bounce"></div>
       </div>
 
       <Navbar darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
