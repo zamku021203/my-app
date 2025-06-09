@@ -4,7 +4,7 @@ import Navbar from './components/layout/Navbar'
 import Home from './components/pages/Home'
 import About from './components/pages/About'
 import Projects from './components/pages/Projects'
-import Contact from './components/pages/Contact'
+import Contact from './Components/Pages/Contact'
 
 function App() {
   const [darkMode, setDarkMode] = useState(false)
